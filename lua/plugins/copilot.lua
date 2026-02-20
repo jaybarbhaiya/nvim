@@ -1,6 +1,6 @@
 return {
   "github/copilot.vim",
-  cmd = "Copilot",
+  event = "VimEnter",
   opts = {},
   config = function()
     -- Disable default Tab mapping to avoid conflicts
