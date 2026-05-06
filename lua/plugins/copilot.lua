@@ -12,6 +12,6 @@ return {
     })
 
     -- Optional: Map <C-J> to accept Copilot suggestions in insert mode
-    vim.api.nvim_set_keymap("i", "<C-l>", 'copilot#Accept("<CR>")', { expr = true, silent = true, noremap = true })
+    vim.api.nvim_set_keymap("i", "<A-l>", 'copilot#Accept("<CR>")', { expr = true, silent = true, noremap = true })
   end,
 }
