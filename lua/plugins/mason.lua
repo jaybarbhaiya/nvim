@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- Customize Mason
 
@@ -13,6 +13,22 @@ return {
       ensure_installed = {
         -- install language servers
         "lua-language-server",
+        "pyright",
+        "rust-analyzer",
+        "gopls",
+        "cds-lsp",
+        "clangd",
+        "vtsls",
+        "typescript-language-server",
+        "prettier",
+        "codelldb",
+        "xmlformatter",
+        "jq",
+        "json-lsp",
+        "eslint-lsp",
+        "jsonlint",
+        "markdownlint",
+        "java-language-server",
 
         -- install formatters
         "stylua",
