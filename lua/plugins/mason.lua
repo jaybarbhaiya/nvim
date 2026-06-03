@@ -28,7 +28,7 @@ return {
         "eslint-lsp",
         "jsonlint",
         "markdownlint",
-        "java-language-server",
+        "jdtls",
 
         -- install formatters
         "stylua",
