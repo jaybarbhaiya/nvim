@@ -4,6 +4,17 @@
 
 A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
+> **NOTE:** Currently only NeoVim < 0.11.4 works as expected. There is a conflicting change in `snack.nvim` and NeoVim > 0.11.4 to throw errors.
+> Installing NeoVim 0.11.3 or earlier. `Bob` is a dedicated Neovim version manager, handles multiple versions cleanly, and lets you switch between them easily.
+>
+> ```shell
+> brew install bob
+> bob install 0.11.3
+> bob use 0.11.3
+> ```
+>
+> Restart the terminal
+
 ## 🛠️ Installation
 
 #### Make a backup of your current nvim and shared folder
